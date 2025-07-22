@@ -20,25 +20,37 @@ const ProjectShowcase = () => {
   const projects = [
     // ... (your projects array remains the same) ...
     {
-      title: "Type Racer Game (simple Level)",
+      title: "Product Launch Platform (Inspired by Product Hunt)",
       description:
-        "A simple but interactive typing speed game built using HTML, CSS, and vanilla JavaScript. This project focuses on DOM manipulation, user interaction, and basic timing logic.",
+        "A full-featured product launch platform inspired by Product Hunt, built using the MERN stack (MongoDB, Express.js, React, Node.js).This platform allows users to discover, upvote, review, and discuss the latest tech products. It also features role-based authentication, moderation tools, reporting systems, and search functionality with pagination. Admins can manage products, users, and coupons through a dedicated dashboard.Key functionalities include: 1. User authentication & authorization (JWT-based) 2. Product submission, review, and voting 3. Admin dashboard for product, user, and coupon management 4. Payment integration for premium features 5. Search, filtering, and pagination for better UX  admin login: admin id: admin@gmail.com pass: Admin@123",
       tags: [
-        "Html",
-        "Css",
-        "JavaScript",
-        
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "Daisy ui",
+        "Stripe"
       ],
       featured: true,
       images: [
         "/images/project1/img1.png",
         "/images/project1/img2.png",
         "/images/project1/img3.png",
-        
+        "/images/project1/img4.png",
+        "/images/project1/img5.png",
+        "/images/project1/img6.png",
+        "/images/project1/img7.png",
+        "/images/project1/img8.png",
+        "/images/project1/img9.png",
+        "/images/project1/img10.png",
+        "/images/project1/img11.png",
+        "/images/project1/img12.png",
       ],
-      sourceCode: "https://github.com/AsifIslamBisal/typing-race-game",
+      sourceCode: "https://github.com/AsifIslamBisal/Product-hunter-client",
       liveLink: {
-        url: "https://neon-tanuki-a3dc4d.netlify.app/",
+        url: "https://product-hunt-f43f1.web.app/",
         text: "Live Link",
       },
     },
@@ -57,14 +69,39 @@ const ProjectShowcase = () => {
       ],
       featured: true,
       images: [
-        "/images/project1/img1.png",
-        "/images/project1/img2.png",
-        "/images/project1/img3.png",
+        "/images/project2/img1.png",
+        "/images/project2/img2.png",
+        "/images/project2/img3.png",
+        "/images/project2/img4.png",
+        "/images/project2/img5.png",
         
       ],
       sourceCode: "https://github.com/AsifIslamBisal/hotel-booking-client",
       liveLink: {
         url: "https://hotel-booking-project-aa7bf.web.app/",
+        text: "Live Link",
+      },
+    },
+    {
+      title: "Type Racer Game (simple Level)",
+      description:
+        "A simple but interactive typing speed game built using HTML, CSS, and vanilla JavaScript. This project focuses on DOM manipulation, user interaction, and basic timing logic.",
+      tags: [
+        "Html",
+        "Css",
+        "JavaScript",
+        
+      ],
+      featured: true,
+      images: [
+        "/images/project3/img1.png",
+        "/images/project3/img2.png",
+        "/images/project3/img3.png",
+        
+      ],
+      sourceCode: "https://github.com/AsifIslamBisal/typing-race-game",
+      liveLink: {
+        url: "https://neon-tanuki-a3dc4d.netlify.app/",
         text: "Live Link",
       },
     },
