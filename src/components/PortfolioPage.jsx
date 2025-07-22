@@ -1,4 +1,4 @@
-import profileImage from "../../public/images/profile/Profile.png";
+import profileImage from "../../public/images/profile/Profile.jpg";
 
 const AboutMe = () => {
   return (
